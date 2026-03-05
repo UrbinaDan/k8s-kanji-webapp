@@ -1,0 +1,12 @@
+{
+  "name": "k8s-kanji-trainer",
+  "version": "1.0.0",
+  "description": "A mini Kanji spaced repetition trainer deployed with Docker + Kubernetes",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}

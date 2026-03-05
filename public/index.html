@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Kanji Trainer</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="wrap">
+    <header>
+      <h1>Kanji Trainer</h1>
+      <p class="sub">Mini spaced repetition session</p>
+    </header>
+
+    <section class="stats">
+      <div class="stat">
+        <div class="label">Score</div>
+        <div class="value" id="score">0</div>
+      </div>
+      <div class="stat">
+        <div class="label">Streak</div>
+        <div class="value" id="streak">0</div>
+      </div>
+      <div class="stat">
+        <div class="label">Done</div>
+        <div class="value"><span id="done">0</span>/<span id="goal">15</span></div>
+      </div>
+    </section>
+
+    <section class="progress">
+      <div class="bar">
+        <div class="fill" id="fill"></div>
+      </div>
+    </section>
+
+    <section class="card">
+      <div class="kanji" id="kanji">?</div>
+      <div class="meta hidden" id="meta">
+        <div class="row">
+          <span class="tag">Reading</span>
+          <span class="text" id="reading"></span>
+        </div>
+        <div class="row">
+          <span class="tag">Meaning</span>
+          <span class="text" id="meaning"></span>
+        </div>
+      </div>
+    </section>
+
+    <section class="controls">
+      <button class="btn" id="reveal">Reveal</button>
+      <button class="btn ghost" id="skip">Skip</button>
+    </section>
+
+    <section class="grade hidden" id="grade">
+      <button class="pill again" data-grade="again">Again</button>
+      <button class="pill hard" data-grade="hard">Hard</button>
+      <button class="pill good" data-grade="good">Good</button>
+      <button class="pill easy" data-grade="easy">Easy</button>
+    </section>
+
+    <section class="footer">
+      <button class="btn small" id="reset">Reset Session</button>
+      <span class="note" id="note"></span>
+    </section>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

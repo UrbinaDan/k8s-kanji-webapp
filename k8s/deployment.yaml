@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: kanji-trainer
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: kanji-trainer
+  template:
+    metadata:
+      labels:
+        app: kanji-trainer
+    spec:
+      containers:
+        - name: kanji-trainer
+          image: YOUR_DOCKERHUB_USERNAME/kanji-trainer:1.0
+          ports:
+            - containerPort: 3000

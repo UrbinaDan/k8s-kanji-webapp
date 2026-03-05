@@ -1,0 +1,12 @@
+[
+  { "id": "nichi", "kanji": "日", "reading": "にち / ひ", "meaning": "sun / day" },
+  { "id": "getsu", "kanji": "月", "reading": "げつ / つき", "meaning": "moon / month" },
+  { "id": "ka", "kanji": "火", "reading": "か / ひ", "meaning": "fire" },
+  { "id": "sui", "kanji": "水", "reading": "すい / みず", "meaning": "water" },
+  { "id": "moku", "kanji": "木", "reading": "もく / き", "meaning": "tree" },
+  { "id": "kin", "kanji": "金", "reading": "きん / かね", "meaning": "gold / money" },
+  { "id": "do", "kanji": "土", "reading": "ど / つち", "meaning": "earth / soil" },
+  { "id": "yama", "kanji": "山", "reading": "さん / やま", "meaning": "mountain" },
+  { "id": "kawa", "kanji": "川", "reading": "せん / かわ", "meaning": "river" },
+  { "id": "hito", "kanji": "人", "reading": "じん / ひと", "meaning": "person" }
+]
