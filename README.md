@@ -13,3 +13,9 @@ Mini kanji spaced repetition trainer deployed with Docker + Kubernetes.
 npm install
 npm start
 # http://localhost:3000
+
+## Demo
+
+Kanji Trainer running in Kubernetes locally.
+
+![demo](screenshot.jpg)
